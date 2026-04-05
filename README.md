@@ -46,6 +46,15 @@ docker build -t finance-backend .
 docker run --rm -p 8000:8000 finance-backend
 ```
 
+## Deploy On Railway
+
+1. Create a new Railway service from this GitHub repository.
+2. Add a Railway Postgres database and link it to the app service.
+3. Set `DATABASE_URL` from the Postgres plugin if Railway does not inject it automatically.
+4. Deploy the service. The container uses Railway's `PORT` value automatically.
+
+The app works with SQLite locally and PostgreSQL in Railway.
+
 ## Postman Collection
 
 Import the files in `postman/` to test the API with a prebuilt collection and local environment:

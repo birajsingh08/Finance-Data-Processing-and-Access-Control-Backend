@@ -4,3 +4,4 @@ SQLAlchemy==2.0.38
 pydantic==2.10.6
 python-dateutil==2.9.0.post0
 email-validator==2.2.0
+psycopg[binary]==3.2.6
