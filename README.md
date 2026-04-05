@@ -46,6 +46,13 @@ docker build -t finance-backend .
 docker run --rm -p 8000:8000 finance-backend
 ```
 
+## Postman Collection
+
+Import the files in `postman/` to test the API with a prebuilt collection and local environment:
+
+- `postman/finance-backend.postman_collection.json`
+- `postman/finance-backend.postman_environment.json`
+
 ## Run Tests
 
 ```bash
