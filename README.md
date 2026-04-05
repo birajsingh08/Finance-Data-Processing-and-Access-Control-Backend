@@ -39,6 +39,13 @@ The app uses `finance.db` in the project root.
 
 Open `http://127.0.0.1:8000/` for a simple status response, `http://127.0.0.1:8000/health` for a health check, and `http://127.0.0.1:8000/docs` for Swagger UI.
 
+## Run With Docker
+
+```bash
+docker build -t finance-backend .
+docker run --rm -p 8000:8000 finance-backend
+```
+
 ## Run Tests
 
 ```bash

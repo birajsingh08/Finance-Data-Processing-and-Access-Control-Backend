@@ -1,0 +1,7 @@
+.git
+.venv
+__pycache__
+*.pyc
+finance.db
+.pytest_cache
+.mypy_cache
